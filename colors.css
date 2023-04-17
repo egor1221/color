@@ -1,0 +1,26 @@
+.hex-color{
+    text-align: center;
+}
+
+.text{
+    font-size: 24px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+body{
+    font-family: 'Inconsolata', monospace;
+    background-color: rgb(255, 0, 0);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    transition: 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
